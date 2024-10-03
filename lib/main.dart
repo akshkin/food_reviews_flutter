@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: Themes.lightTheme(),
       darkTheme: Themes.darkTheme(),
       themeMode: ThemeMode.system,
-      home: const MyHomePage(title: 'Food reviews'),
+      home: const MyHomePage(),
       debugShowCheckedModeBanner: false,
     );
   }

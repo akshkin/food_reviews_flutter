@@ -5,9 +5,9 @@ import 'package:food_reviews/pages/review_map_locations.dart/ewview_map_location
 import 'package:food_reviews/widget/responsive_layout_builder.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+  const MyHomePage({super.key});
 
-  final String title;
+  static const String route = "/home";
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
