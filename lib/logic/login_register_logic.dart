@@ -56,7 +56,12 @@ class LoginRegisterLogicClass extends ChangeNotifier {
     _loginRegisterInfo.showLoginRegisterError = false;
     _isEmailOk = Validators.email(email: email) ? true : false;
     _isPasswordOk = Validators.password(password: password) ? true : false;
+    // _isConfirmPasswordOk = password == confirmPassword ? true : false;
     _isConfirmPasswordOk = password == confirmPassword ? true : false;
+    password != confirmPassword
+        ? showLoginErrorMessage(
+            errorMessage: "Password and Confirm Password do not match")
+        : null;
     _loginRegisterInfo.buttonLoginRegisterEnabled =
         _isEmailOk && _isPasswordOk && _isConfirmPasswordOk ? true : false;
     notifyListeners();
