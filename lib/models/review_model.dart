@@ -41,7 +41,7 @@ class ReviewModel {
     String? affordability,
     double? rating,
     String? category,
-    String? reviewDate,
+    DateTime? reviewDate,
     String? restaurant,
     String? title,
     String? review,
