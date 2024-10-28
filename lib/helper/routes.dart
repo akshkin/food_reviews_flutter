@@ -3,7 +3,7 @@ import 'package:food_reviews/pages/authentication/authentication_login.dart';
 import 'package:food_reviews/pages/authentication/authentication_signup.dart';
 import 'package:food_reviews/pages/authentication/forgot_password.dart';
 import 'package:food_reviews/pages/home.dart';
-import 'package:food_reviews/pages/review_entry/review_entry.dart';
+import 'package:food_reviews/pages/review_entry/review_entry_view.dart';
 import 'package:food_reviews/pages/review_entry/review_entry_edit.dart';
 import 'package:food_reviews/pages/review_entry/review_entry_photo_zoom.dart';
 import 'package:food_reviews/pages/review_grid.dart';
