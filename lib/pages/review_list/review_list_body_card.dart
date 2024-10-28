@@ -1,13 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:food_reviews/helper/arguments.dart';
 import 'package:food_reviews/helper/constants.dart';
 import 'package:food_reviews/helper/format_dates.dart';
 import 'package:food_reviews/logic/review_list_logic.dart';
 import 'package:food_reviews/models/review_model.dart';
-import 'package:food_reviews/pages/review_entry/review_entry.dart';
+import 'package:food_reviews/pages/review_entry/review_entry_view.dart';
 import 'package:food_reviews/widget/dialogs.dart';
 import 'package:food_reviews/widget/muted_text.dart';
 import 'package:food_reviews/widget/star_rating.dart';
