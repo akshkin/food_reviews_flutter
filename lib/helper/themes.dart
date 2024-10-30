@@ -34,4 +34,5 @@ class ThemeColors {
   static const errorColor = Colors.red;
   static Color washedOutWhite = Colors.white.withOpacity(0.3);
   static Color washedOutBlack = Colors.black12;
+  static Color white = Colors.white;
 }

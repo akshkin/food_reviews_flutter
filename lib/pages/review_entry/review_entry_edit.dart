@@ -59,7 +59,8 @@ class _ReviewEntryEditState extends State<ReviewEntryEdit> {
       _reviewEntryEditLogic = ReviewEntryLogic(
           reviewOriginalModel: reviewEntryArguments.reviewModel);
       _reviewEntryEditLogic.reviewMode = reviewEntryArguments.reviewMode;
-      _reviewEntryEditLogic.reviewOriginalModel.copyWith(
+      _reviewEntryEditLogic.reviewEditModel =
+          _reviewEntryEditLogic.reviewOriginalModel.copyWith(
         documentId: _reviewEntryEditLogic.reviewMode == ReviewMode.edit
             ? _reviewEntryEditLogic.reviewOriginalModel.documentId
             : "",
