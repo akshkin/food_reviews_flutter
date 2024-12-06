@@ -1,4 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- geolocator permissons -->
+    <uses-permisson androind:name="androind.permisson.ACCESS_FINE_LOCATION" />
     <application
         android:label="food_reviews"
         android:name="${applicationName}"
